@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .section__destaques {
+      text-align: center;
+    }
+
+    .carrossel__destaques {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .swiper {
+      height: 200px;
+    }
+
+    .card__destaques {
+      width: 200px;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card__img img {
+      max-width: 100%;
+    }
+    .card__footer {
+            margin-top: 10px;
+        }
+        .section__destaques {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        @media screen and (max-width: 1200px) {
+            .section__destaques {
+              max-width: 700px;
+            }
+          
+        }
+        @media screen and (max-width: 700px) {
+            .section__destaques {
+              max-width: 500px;
+            }
+          
+        }
+        @media screen and (max-width: 500px) {
+            .section__destaques {
+              max-width: none;
+            }
+          
+        }
+        .section__destaques h1 {
+            text-align: center;
+            font-family: inherit;
+            font-size: 24px;
+            margin-bottom: 16px
+        }
+        .carrossel__destaques {
+            display: flex;
+        }
+        .card__destaques {
+            border: 1px solid #bfbfbf;
+            border-radius: 6px;
+            height: 150px;
+            width: 200px;
+            background-color: white;
+        }
+        .card__body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            justify-content: space-around;
+        }
+        .card__img img {
+            max-width: 150px;
+            height: 100px;
+            object-fit: contain;
+            display: inherit;
+        }
+        .card__footer {
+            text-align: center;
+        }
+        .card__footer a {
+            color: rgb(46, 46, 46);
+            text-decoration: none;
+        }
+        .divider {
+            display: flex;
+            align-items: center;
+        }
+        .line {
+            flex: 1;
+            border: none;
+            border-top: 2px solid #333;
+        }
+        .text {
+            font-size: 18px;
+            color: #333;
+        }
+  </style>
+</head>
+
+<body>
+  <div class="divider" style="margin-bottom: 20px;">
+    <hr class="line" style="border: none; height: 1px; background-color: #8d8d8d;">
+    <div class="slanted-background">
+      <h1 class="text"
+        style="background-color:#db00a9; padding: 8px; color: #ffffff; text-transform: uppercase;font-family: 'Lato', sans-serif; font-style: italic;">
+        ferramentas em destaque</h1>
+    </div>
+    <hr class="line" style="border: none; height: 1px; background-color: #8d8d8d;">
+  </div>
+  <!-- Swiper -->
+  <div class="section__destaques swiper mySwiper">
+    <div class=" carrossel__destaques swiper-wrapper">
+      <div class="card__destaques card--1 swiper-slide">
+        <div class="card__body">
+          <div>
+            <div class="card__img">
+              <a target="_blank" href="https://try.monday.com/xnw937t0o3cc?utm_source=baixaki&utm_id=baixaki"><img
+                  src="https://assets.kmaleon.com.br/uploads/5d63eb482768e00e784ee627/1585804280362.jpeg"
+                  alt="Logo Nonday"></a>
+            </div>
+          </div>
+          <div class="card__footer">
+            <a target="_blank" href="https://try.monday.com/xnw937t0o3cc?utm_source=baixaki&utm_id=baixaki">
+              Saiba mais
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card__destaques card--2 swiper-slide">
+        <div class="card__body">
+          <div>
+            <div class="card__img">
+              <a target="_blank" href="https://instapage.grsm.io/ykjffftc2dod?utm_source=baixaki&utm_id=baixaki"><img
+                  src="https://assets.kmaleon.com.br/uploads/undefined/1684160395893.png" alt="logo instapage"></a>
+            </div>
+          </div>
+          <div class="card__footer">
+            <a target="_blank" href="https://instapage.grsm.io/ykjffftc2dod?utm_source=baixaki&utm_id=baixaki">
+              Saiba mais
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card__destaques card--3 swiper-slide">
+        <div class="card__body">
+          <div>
+            <div class="card__img">
+              <a target="_blank" href="https://affiliate.notion.so/dt8u12srxku2?utm_source=baixaki&utm_id=baixaki"><img
+                  src="https://assets.kmaleon.com.br/uploads/undefined/1695232610947.png" alt="logo notion"></a>
+            </div>
+          </div>
+          <div class="card__footer">
+            <a target="_blank" href="https://affiliate.notion.so/dt8u12srxku2?utm_source=baixaki&utm_id=baixaki">
+              Saiba mais
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card__destaques card--4 swiper-slide">
+        <div class="card__body">
+          <div>
+            <div class="card__img">
+              <a target="_blank" href="https://www.mindmeister.com/?r=1268737&utm_source=baixaki&utm_id=baixaki"><img
+                  src="https://assets.kmaleon.com.br/uploads/undefined/1704809157753.png" alt="logo mindmeister"></a>
+            </div>
+          </div>
+          <div target="_blank" class="card__footer">
+            <a href="https://www.mindmeister.com/?r=1268737&utm_source=baixaki&utm_id=baixaki">
+              Saiba mais
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card__destaques card--5 swiper-slide">
+        <div class="card__body">
+          <div>
+            <div class="card__img">
+              <a target="_blank" href="https://psxid.figma.com/kv9rluflefw1?utm_source=baixaki&utm_id=baixaki"><img
+                  src="https://assets.kmaleon.com.br/uploads/5dc56532c33f6f101c387127/1585804616345.png"
+                  alt="logo figma"></a>
+            </div>
+          </div>
+          <div class="card__footer">
+            <a target="_blank" href="https://psxid.figma.com/kv9rluflefw1?utm_source=baixaki&utm_id=baixaki"
+              style="position: relative; bottom: 0">
+              Saiba mais
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card__destaques card--6 swiper-slide">
+        <div class="card__body">
+          <div>
+            <div class="card__img">
+              <a target="_blank" href="https://try.leadpages.com/hd9gzt0dx6kq?utm_source=baixaki&utm_id=baixaki"><img
+                  src="https://assets.kmaleon.com.br/files/products/5bc4e0930992c817172e0617/1540021193924.png"
+                  alt="logo leadpages"></a>
+            </div>
+          </div>
+          <div class="card__footer">
+            <a target="_blank" href="https://try.leadpages.com/hd9gzt0dx6kq?utm_source=baixaki&utm_id=baixaki"
+              style="position: relative; bottom: 0">
+              Saiba mais
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card__destaques card--7 swiper-slide">
+        <div class="card__body">
+          <div>
+            <div class="card__img">
+              <a target="_blank" href="https://click.linksynergy.com/fs-bin/click?id=wa9%2FgtaIeq4&offerid=572706.11&type=3&subid=0%22%3ENordVPN%3C%2Fa%3E%3Cimg+border%3D%220%22+width%3D%221%22+alt%3D%22%22+height%3D%221%22+src%3D%22https%3A%2F%2Fad.linksynergy.com%2Ffs-bin%2Fshow%3Fid%3Dwa9%2FgtaIeq4&bids=572706.11&type=3&subid=0%22+%3E&utm_source=baixaki&utm_medium=baixaki&utm_campaign=baixaki&utm_id=baixaki&utm_term=baixaki&utm_content=baixaki"><img
+                  src="https://assets.kmaleon.com.br/uploads/undefined/1705931042679.png"
+                  alt="logo nordvpn"></a>
+            </div>
+          </div>
+          <div class="card__footer">
+            <a target="_blank" href="https://click.linksynergy.com/fs-bin/click?id=wa9%2FgtaIeq4&offerid=572706.11&type=3&subid=0%22%3ENordVPN%3C%2Fa%3E%3Cimg+border%3D%220%22+width%3D%221%22+alt%3D%22%22+height%3D%221%22+src%3D%22https%3A%2F%2Fad.linksynergy.com%2Ffs-bin%2Fshow%3Fid%3Dwa9%2FgtaIeq4&bids=572706.11&type=3&subid=0%22+%3E&utm_source=baixaki&utm_medium=baixaki&utm_campaign=baixaki&utm_id=baixaki&utm_term=baixaki&utm_content=baixaki"
+              style="position: relative; bottom: 0">
+              Saiba mais
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card__destaques card--8 swiper-slide">
+        <div class="card__body">
+          <div>
+            <div class="card__img">
+              <a target="_blank" href="https://click.linksynergy.com/fs-bin/click?id=wa9%2FgtaIeq4&offerid=1321193.12&type=3&subid=0%22%3EMicrosoft+365+Business+Standard+Plans%3C%2Fa%3E%3Cimg+border%3D%220%22+width%3D%221%22+alt%3D%22%22+height%3D%221%22+src%3D%22https%3A%2F%2Fad.linksynergy.com%2Ffs-bin%2Fshow%3Fid%3Dwa9%2FgtaIeq4&bids=1321193.12&type=3&subid=0&utm_source=baixaki&utm_medium=baixaki&utm_campaign=baixaki&utm_id=baixaki&utm_term=baixaki&utm_content=baixaki"><img
+                  src="https://assets.kmaleon.com.br/uploads/undefined/1706040572334.jpeg"
+                  alt="logo office 365"></a>
+            </div>
+          </div>
+          <div class="card__footer">
+            <a target="_blank" href="https://click.linksynergy.com/fs-bin/click?id=wa9%2FgtaIeq4&offerid=1321193.12&type=3&subid=0%22%3EMicrosoft+365+Business+Standard+Plans%3C%2Fa%3E%3Cimg+border%3D%220%22+width%3D%221%22+alt%3D%22%22+height%3D%221%22+src%3D%22https%3A%2F%2Fad.linksynergy.com%2Ffs-bin%2Fshow%3Fid%3Dwa9%2FgtaIeq4&bids=1321193.12&type=3&subid=0&utm_source=baixaki&utm_medium=baixaki&utm_campaign=baixaki&utm_id=baixaki&utm_term=baixaki&utm_content=baixaki"
+              style="position: relative; bottom: 0">
+              Saiba mais
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card__destaques card--9 swiper-slide">
+        <div class="card__body">
+          <div>
+            <div class="card__img">
+              <a target="_blank" href="https://www.rdstation.com/precos/?a_aid=65aeba6431abc&utm_source=baixaki&utm_medium=baixaki&utm_campaign=baixaki&utm_id=baixaki&utm_term=baixaki&utm_content=baixaki"><img
+                  src="https://assets.kmaleon.com.br/uploads/undefined/1608125829379.png"
+                  alt="logo rdstation"></a>
+            </div>
+          </div>
+          <div class="card__footer">
+            <a target="_blank" href="https://www.rdstation.com/precos/?a_aid=65aeba6431abc&utm_source=baixaki&utm_medium=baixaki&utm_campaign=baixaki&utm_id=baixaki&utm_term=baixaki&utm_content=baixaki"
+              style="position: relative; bottom: 0">
+              Saiba mais
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: "auto",
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 2 ,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        1200: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+      },
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+</body>
+
+</html>
